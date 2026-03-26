@@ -1,4 +1,11 @@
 # Large external datasets — too large for git/LFS, upload to each instance separately
 common/SNOMED/
-common/Athena/
 *.zip
+
+# Full Athena bundle (all vocabularies) — too large
+common/Athena/all/
+
+# Large files within the SNOMED-only Athena bundle — only CONCEPT.csv is needed
+common/Athena/snomed/CONCEPT_RELATIONSHIP.csv
+common/Athena/snomed/CONCEPT_ANCESTOR.csv
+common/Athena/snomed/CONCEPT_SYNONYM.csv
