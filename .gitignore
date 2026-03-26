@@ -1,0 +1,3 @@
+# SNOMED RF2 releases — too large for git/LFS, upload to each instance separately
+common/SNOMED/
+*.zip
