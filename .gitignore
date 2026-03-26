@@ -1,3 +1,4 @@
-# SNOMED RF2 releases — too large for git/LFS, upload to each instance separately
+# Large external datasets — too large for git/LFS, upload to each instance separately
 common/SNOMED/
+common/Athena/
 *.zip
