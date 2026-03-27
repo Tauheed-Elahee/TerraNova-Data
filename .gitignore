@@ -1,6 +1,7 @@
 # Large external datasets — too large for git/LFS, upload to each instance separately
 common/SNOMED/*
 !common/SNOMED/target
+!common/SNOMED/SnomedCT_Canadian_EditionRelease_PRODUCTION_20251130T120000Z/.placeholder
 *.zip
 
 # Full Athena bundle (all vocabularies) — too large
