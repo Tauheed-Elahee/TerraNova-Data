@@ -11,3 +11,7 @@ common/Athena/all/
 common/Athena/snomed/CONCEPT_RELATIONSHIP.csv
 common/Athena/snomed/CONCEPT_ANCESTOR.csv
 common/Athena/snomed/CONCEPT_SYNONYM.csv
+
+# HuggingFace probe cache — files downloaded at runtime, only track the placeholder
+hf_cache/*
+!hf_cache/.placeholder
